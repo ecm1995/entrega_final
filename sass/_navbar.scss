@@ -1,0 +1,16 @@
+.navbar-nav .nav-link {
+  background-color: transparent;
+  color: $text-color; // Color de texto base (negro)
+  border: 1px solid $text-color; // Borde negro
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: $primary-color; // Azul
+    color: white;
+    border-color: $primary-color;
+  }
+}
